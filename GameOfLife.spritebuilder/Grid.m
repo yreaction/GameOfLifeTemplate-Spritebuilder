@@ -37,10 +37,10 @@ static const int GRID_COLUMNS = 10;
     float y = 0;
     
     _gridArray = [NSMutableArray array];
-    x = 0;
     for (int i = 0; i < GRID_ROWS; i++) {
         _gridArray[i] = [NSMutableArray array];
-        
+        x = 0;
+
         for (int j = 0; j < GRID_COLUMNS; j++) {
             Creature * creature = [[Creature alloc] initCreature];
             creature.anchorPoint = ccp(0,0);
