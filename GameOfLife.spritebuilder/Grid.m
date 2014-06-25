@@ -59,14 +59,14 @@ static const int GRID_COLUMNS = 10;
     CGPoint touchLocation = [touch locationInNode:self];
     
     Creature *creature = [self creatureForTouchPosition: touchLocation];
-  //  creature.isAlive = !creature.isAlive;
+    creature.isAlive = !creature.isAlive;
     
 }
 
 - (Creature*)creatureForTouchPosition:(CGPoint) touched
 {
     int colum = touched.x / _cellHeight;
-    int row = touched.y = _cellWidth;
+    int row = touched.y / _cellWidth;
     NSLog(@"%i %i",row,colum);
    // return _gridArray[row][colum];
     return nil;
