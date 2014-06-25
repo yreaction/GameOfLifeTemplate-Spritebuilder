@@ -55,4 +55,20 @@ static const int GRID_COLUMNS = 10;
     
 }
 
+- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+    CGPoint touchLocation = [touch locationInNode:self];
+    
+    Creature *creature = [self creatureForTouchPosition: touchLocation];
+    creature.isAlive = !creature.isAlive;
+    
+}
+
+- (Creature*)creatureForTouchPosition:(CGPoint) touched
+{
+    int colum = touched.x / _cellHeight;
+    int row = touched.y = _cellWidth;
+    return _gridArray[row][colum];
+    
+}
+
 @end
