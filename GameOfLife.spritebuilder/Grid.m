@@ -67,7 +67,7 @@ static const int GRID_COLUMNS = 10;
 {
     int colum = touched.x / _cellHeight;
     int row = touched.y = _cellWidth;
-    NSLog("%i %i",row,colum);
+    NSLog(@"%i %i",row,colum);
    // return _gridArray[row][colum];
     
 }
