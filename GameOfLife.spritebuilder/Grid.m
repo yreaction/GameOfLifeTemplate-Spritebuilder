@@ -139,7 +139,7 @@ static const int GRID_COLUMNS = 10;
             int currentAlive = currentCreature.livingNeigbors;
             if (currentAlive == 3) {
                 currentCreature.isAlive = YES;
-                numAlive += 1;
+                ++numAlive ;
             } else if ((currentAlive <= 1)||(currentAlive >= 4)) {
                 currentCreature.isAlive = NO;
 
