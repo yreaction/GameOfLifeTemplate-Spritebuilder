@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		53183923195B1BE0005EB55A /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = 53183922195B1BE0005EB55A /* Grid.m */; };
+		53183927195B1C1F005EB55A /* Creature.m in Sources */ = {isa = PBXBuildFile; fileRef = 53183926195B1C1F005EB55A /* Creature.m */; };
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
@@ -59,6 +60,8 @@
 /* Begin PBXFileReference section */
 		53183921195B1BE0005EB55A /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
 		53183922195B1BE0005EB55A /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
+		53183925195B1C1F005EB55A /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creature.h; sourceTree = "<group>"; };
+		53183926195B1C1F005EB55A /* Creature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Creature.m; sourceTree = "<group>"; };
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
@@ -133,6 +136,8 @@
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
 				53183921195B1BE0005EB55A /* Grid.h */,
+				53183925195B1C1F005EB55A /* Creature.h */,
+				53183926195B1C1F005EB55A /* Creature.m */,
 				53183922195B1BE0005EB55A /* Grid.m */,
 			);
 			name = Source;
@@ -349,6 +354,7 @@
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				53183923195B1BE0005EB55A /* Grid.m in Sources */,
+				53183927195B1C1F005EB55A /* Creature.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
